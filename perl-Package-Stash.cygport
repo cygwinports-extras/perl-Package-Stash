@@ -1,0 +1,13 @@
+CPAN_AUTHOR=doy
+inherit perl
+
+NAME="perl-Package-Stash"
+VERSION=0.37
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl stash manipulation module"
+DESCRIPTION="Manipulating stashes (Perl's symbol tables) is occasionally
+necessary, but incredibly messy, and easy to get wrong. This module hides all
+of that behind a simple API."
+
+REQUIRES="${NAME}-XS"
